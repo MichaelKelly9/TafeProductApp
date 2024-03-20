@@ -65,6 +65,7 @@ namespace ProductApps
         {
             TotalPayment = Price * Quantity;
             TotalPayment = totalPayment + 25;
+            TotalPayment = TotalPayment + 5;
         }
     }
 }
