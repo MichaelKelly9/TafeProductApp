@@ -66,6 +66,8 @@ namespace ProductApps
             TotalPayment = Price * Quantity;
             TotalPayment = totalPayment + 25;
             TotalPayment = TotalPayment + 5;
+            TotalPayment = TotalPayment * 2;
+            //the calculations are hard coded and the GST is done at *2 as I have not done C# coding intro subject yet
         }
     }
 }
